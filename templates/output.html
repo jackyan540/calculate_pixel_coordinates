@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Output Page{% endblock %}
+{% block content %}
+<style>
+    table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+        border-spacing: 5px;
+    }
+</style>
+<h1><u>Arranged Pixel Coordinates:</u></h1>
+<!--
+    Create a table to report the solution
+-->
+<table>
+    <tr>
+        <!--
+            For loop to create column headings
+        -->
+        {% for i in range(width + 1) %}
+            {% if i != 0 %}
+                <th style="font-size:150%;">Column {{i}}</th>
+            {% else %}
+                <th></th>
+            {% endif %}
+        {% endfor %}
+    </tr>
+        <!--
+            For loop to create row heading and then populate the row with
+            the solution coordinates
+        -->
+        {% for i in range(height) %}
+            <tr>
+                <td style="font-size:150%;"><b>Row {{i + 1}}</b></td>
+                {% for x in output[i] %}
+                <td style="font-size:150%;font-family:courier;">{{x}}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+  </table>
+{% endblock %}

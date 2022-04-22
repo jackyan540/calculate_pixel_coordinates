@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Input Page{% endblock %}
+
+{% block content %}
+<!--
+  Create labels and entry fields for the inputs
+-->
+<h2><u>Please enter the image's dimensions and corner points:</u></h2>
+<form action = "#" method = "post">
+  <p><b>(Height, Width): </b>&emsp; <input type = "text" name = "h"><input type = "text" name = "w"></p>
+  <p><b>Coordinate 1 (x,y): </b><input type = "text" name = "c1x"><input type = "text" name = "c1y"></p>
+  <p><b>Coordinate 2 (x,y): </b><input type = "text" name = "c2x"><input type = "text" name = "c2y"></p>
+  <p><b>Coordinate 3 (x,y): </b><input type = "text" name = "c3x"><input type = "text" name = "c3y"></p>
+  <p><b>Coordinate 4 (x,y): </b><input type = "text" name = "c4x"><input type = "text" name = "c4y"></p>
+  <p><input type = "submit" value = "submit"></p>
+</form>
+<!--
+  Add small note at the bottom telling the user the required format of the inputs
+-->
+<p style="font-size:60%;color:gray;">- Height & width must be integer-valued.</p>
+<p style="font-size:60%;color:gray;">- x & y coordinates may be either integer or decimal-valued.</p>
+{% endblock %}
