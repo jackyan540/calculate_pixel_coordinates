@@ -45,6 +45,10 @@ localhost:5000
 
 ![Input Page](Input_Page.png)
 
+* After entering the inputs and clicking "submit", the web application will navigate to the output page reporting the coordinates of all pixels
+
+![Output Page](Output_Page.png)
+
 ## Authors
 
 [Jack Yan](https://www.linkedin.com/in/yan-jack/)
