@@ -39,6 +39,10 @@ localhost:5000
 
 ![Home Page](Home_Page.png)
 
+## Using the web application
+
+* Click the "Go to Input Page" to navigate to the Input Page
+
 ## Authors
 
 [Jack Yan](https://www.linkedin.com/in/yan-jack/)
