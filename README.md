@@ -43,6 +43,8 @@ localhost:5000
 
 * Click the "Go to Input Page" to navigate to the Input Page
 
+![Input Page](Input_Page.png)
+
 ## Authors
 
 [Jack Yan](https://www.linkedin.com/in/yan-jack/)
