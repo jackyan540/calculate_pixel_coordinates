@@ -35,9 +35,7 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. [Jack Yan](https://www.linkedin.com/in/yan-jack/)
+[Jack Yan](https://www.linkedin.com/in/yan-jack/)
 
 ## Version History
 
