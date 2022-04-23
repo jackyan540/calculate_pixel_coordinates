@@ -57,7 +57,7 @@ localhost:5000
 *  If the inputs are malformed, the "submit" button will return the user to the Input Page
    *  Enter one number in each input field
    *  Inputs for height and width must be integer-valued
-   *  Inputs for (x,y) coordinates may be either integer-valued or decimal-valued
+   *  Inputs for (x, y) coordinates may be either integer-valued or decimal-valued
 
 ## Author
 
