@@ -6,24 +6,34 @@ A program that calculates pixel coordinate values for an image that is to be dis
 
 An in-depth paragraph about your project and overview of use.
 
-## Getting Started
-
 ### Dependencies
 
 * [Docker Destop](https://www.docker.com/products/docker-desktop/)
 * [Python 3](https://www.python.org/)
 
-### Installing
+## Running the application
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* After downloading the "calculate_pixel_coordinates" repository, navigate to the working directory where repository is locally saved.
 
-## Help
+### Activate the virtual environment
 
-Any advise for common problems or issues.
 ```
-command to run if program contains helper info
+source venv/bin/activate
 ```
+
+### Build the Docker Image
+
+```
+docker build --tag python-docker .
+```
+
+### Run the Docker Image as a Container
+
+```
+docker run -d -p 5000:5000 python-docker
+```
+
+### Start the web application
 
 ## Authors
 
