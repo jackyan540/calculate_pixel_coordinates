@@ -46,9 +46,10 @@ localhost:5000
 ![Input Page](Input_Page.png)
 
 * After entering the inputs and clicking "submit", the web application will navigate to the output page reporting the coordinates of all pixels
+  * The image below shows example output for a rectangle with 3 pixels height and 3 pixels width with corner points: (1, 1), (1, 3) (3, 1), and (3, 3)
 
 ![Output Page](Output_Page.png)
 
-## Authors
+## Author
 
 [Jack Yan](https://www.linkedin.com/in/yan-jack/)
