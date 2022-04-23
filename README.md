@@ -38,7 +38,6 @@ command to run if program contains helper info
 Contributors names and contact info
 
 ex. [Jack Yan](https://www.linkedin.com/in/yan-jack/)
-ex. [@jackyan](https://twitter.com/dompizzie)
 
 ## Version History
 
