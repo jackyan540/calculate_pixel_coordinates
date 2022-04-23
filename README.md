@@ -54,7 +54,9 @@ localhost:5000
 
 *  The "Home" button on every page will return the user to the Home Page
 *  If the inputs are malformed, the "submit" button will return the user to the Input Page
-  *  I
+  *  Only one number may be entered in each box
+  *  Inputs for height and width must be integer-valued
+  *  Inputs for (x,y) coordinates may be either integer-valued or decimal-valued
 
 ## Author
 
