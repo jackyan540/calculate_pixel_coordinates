@@ -2,11 +2,7 @@
 
 A program that calculates pixel coordinate values for an image that is to be displayed on a two dimensional surface given the dimensions of the image and the corner points of the image.
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-### Dependencies
+## Dependencies
 
 * [Docker Destop](https://www.docker.com/products/docker-desktop/)
 * [Python 3](https://www.python.org/)
@@ -34,6 +30,11 @@ docker run -d -p 5000:5000 python-docker
 ```
 
 ### Start the web application
+
+* In your favorite browser, visit localhost at port 5000:
+```
+localhost:5000
+```
 
 ## Authors
 
