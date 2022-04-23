@@ -50,7 +50,11 @@ localhost:5000
 
 ![Output Page](Output_Page.png)
 
-#### Help entering inputs
+### Help
+
+*  The "Home" button on every page will return the user to the Home Page
+*  If the inputs are malformed, the "submit" button will return the user to the Input Page
+ *  
 
 ## Author
 
