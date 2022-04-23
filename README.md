@@ -36,6 +36,7 @@ docker run -d -p 5000:5000 python-docker
 localhost:5000
 ```
 * Your browser should now display the web application's home page
+* The home page also contains more detailed specifications on the project
 
 ![Home Page](Home_Page.png)
 
